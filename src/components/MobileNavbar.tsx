@@ -39,7 +39,7 @@ const MobileNavbar = () => {
       </Button>
       <Sheet open={showMobileMenu} onOpenChange={setShowMobileMenu}>
         <SheetTrigger>
-          <Button variant={"ghost"} size="icon">
+          <Button variant={"ghost"} size="icon" asChild>
             <MenuIcon className="h-5 w-5">Menu</MenuIcon>
           </Button>
         </SheetTrigger>
